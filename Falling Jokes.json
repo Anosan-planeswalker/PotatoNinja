@@ -4166,72 +4166,11 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "inverted": true,
+                "value": "AdvancedWindow::IsVisible"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "AdvancedWindow::IsMinimized"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SystemInfo::IsNativeMobileApp"
-                          },
-                          "parameters": []
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "AdvancedWindow::IsFocused"
-                          },
-                          "parameters": [
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SystemInfo::IsNativeMobileApp"
-                          },
-                          "parameters": []
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "AdvancedWindow::IsVisible"
-                          },
-                          "parameters": [
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
+              "parameters": [
+                ""
               ]
             }
           ],
@@ -4346,70 +4285,10 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "AdvancedWindow::IsVisible"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "AdvancedWindow::IsMaximized"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SystemInfo::IsNativeMobileApp"
-                          },
-                          "parameters": []
-                        },
-                        {
-                          "type": {
-                            "value": "AdvancedWindow::IsFocused"
-                          },
-                          "parameters": [
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SystemInfo::IsNativeMobileApp"
-                          },
-                          "parameters": []
-                        },
-                        {
-                          "type": {
-                            "value": "AdvancedWindow::IsVisible"
-                          },
-                          "parameters": [
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
+              "parameters": [
+                ""
               ]
             }
           ],
@@ -5466,72 +5345,11 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "inverted": true,
+                "value": "AdvancedWindow::IsVisible"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "AdvancedWindow::IsMinimized"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SystemInfo::IsNativeMobileApp"
-                          },
-                          "parameters": []
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "AdvancedWindow::IsFocused"
-                          },
-                          "parameters": [
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SystemInfo::IsNativeMobileApp"
-                          },
-                          "parameters": []
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "AdvancedWindow::IsVisible"
-                          },
-                          "parameters": [
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
+              "parameters": [
+                ""
               ]
             }
           ],
@@ -5646,70 +5464,10 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "AdvancedWindow::IsVisible"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "AdvancedWindow::IsMaximized"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SystemInfo::IsNativeMobileApp"
-                          },
-                          "parameters": []
-                        },
-                        {
-                          "type": {
-                            "value": "AdvancedWindow::IsFocused"
-                          },
-                          "parameters": [
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SystemInfo::IsNativeMobileApp"
-                          },
-                          "parameters": []
-                        },
-                        {
-                          "type": {
-                            "value": "AdvancedWindow::IsVisible"
-                          },
-                          "parameters": [
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
+              "parameters": [
+                ""
               ]
             }
           ],
@@ -6513,72 +6271,11 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "inverted": true,
+                "value": "AdvancedWindow::IsVisible"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "AdvancedWindow::IsMinimized"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SystemInfo::IsNativeMobileApp"
-                          },
-                          "parameters": []
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "AdvancedWindow::IsFocused"
-                          },
-                          "parameters": [
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SystemInfo::IsNativeMobileApp"
-                          },
-                          "parameters": []
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "AdvancedWindow::IsVisible"
-                          },
-                          "parameters": [
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
+              "parameters": [
+                ""
               ]
             }
           ],
@@ -6693,70 +6390,10 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "AdvancedWindow::IsVisible"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "AdvancedWindow::IsMaximized"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SystemInfo::IsNativeMobileApp"
-                          },
-                          "parameters": []
-                        },
-                        {
-                          "type": {
-                            "value": "AdvancedWindow::IsFocused"
-                          },
-                          "parameters": [
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SystemInfo::IsNativeMobileApp"
-                          },
-                          "parameters": []
-                        },
-                        {
-                          "type": {
-                            "value": "AdvancedWindow::IsVisible"
-                          },
-                          "parameters": [
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
+              "parameters": [
+                ""
               ]
             }
           ],
